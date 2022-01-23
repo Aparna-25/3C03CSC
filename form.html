@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><title>forms</title></head>
+<body>
+ <h3 style="color:#6725A5">Please fill this form</h3>
+ <form>
+  <input type="text" placeholder="Name" required/> <br/>
+  Country :
+   <select>
+    <option> India </option>
+    <option> U.S</option>
+    <option> U.K </option>
+    <option> Others </option>
+  </select><br/> 
+  <input type="text" placeholder="City" required/> <br/>
+  <input type="text" placeholder="Mobile No."/><br/>
+  <input type="email" placeholder="email" required/><br/>
+  <h5 style="color:#B2296A">Date on which you submit this review</h5>
+  <input type="date" min="2021-01-01"/>
+  <h5 style="color:#B2296A">which series genre do you prefer watching?</h5>
+  Comedy:<input type="checkbox" value="comedy" checked/><br/>
+  Action:<input type="checkbox" value="comedy"/><br/>
+  Horror:<input type="checkbox" value="comedy"/><br/>
+  Thriller:<input type="checkbox" value="comedy"/><br/>
+  Science fiction:<input type="checkbox" value="comedy"/><br/>
+  Romance:<input type="checkbox" value="comedy"/><br/>
+  <h5 style="color:#B2296A">Have you watched this series?</h5>
+  Yes:<input type="radio" name="Have you watched this series?" value="Yes"/><br/>
+  No:<input type="radio" name="Have you watched this series?" value="No"/><br/>
+  <h5 style="color:#B2296A">Which character you like the most in this series?</h5>
+  <input list="Characters" name="Charcters"/>
+  <datalist id="Characters">
+   <option value="Monica Geller"/>
+   <option value="Ross Geller"/>
+   <option value="Rachel Green"/>
+   <option value="Chandler Bing"/>
+   <option value="Phoebe Buffay"/>
+.  <option value="Joey Tribbiani"/>
+   <option value="Others"/>
+.  <option value="none"/>
+  </datalist>
+  <h5 style="color:#B2296A">Rate the series</h5>
+  Poor:<input type="radio" name="Rate the series" value="Poor"/><br/>
+  Average:<input type="radio" name="Rate the series" value="Average"/><br/>
+  Good:<input type="radio" name="Rate the series" value="Good"/><br/>
+   <input type="Submit"/><br/>
+ </form>
+<h3 style="color:red;text-align:center">Thank you!</h3>
+</body>
+</html>
